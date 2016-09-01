@@ -13,14 +13,9 @@ describe ('Returns array in string form', function() {
   })
 
   it('Should return array of mixed types as array of strings', function(){
-    var x = {
-      value: 5,
-      key: 30,
-      thing: 'thing'
-    }
-    var solution = [x.toString(),'3333','55.2','true'];
+    var solution = ['yoloswag','3333','55.2','true'];
 
-    var result = toStringArray([x,3333,55.2,true]);
+    var result = toStringArray(['yoloswag',3333,55.2,true]);
     expect(result).to.deep.equal(solution);
   })
 })
