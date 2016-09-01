@@ -1,0 +1,17 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "Try to write the tests for each exercise, then solve the problem. If your solutions are correct, your tests will pass.",
+  "main": "5.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  }
+}
