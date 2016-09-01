@@ -1,11 +1,8 @@
 var chai = require('chai');
-var sinon = require('sinon');
-var sinonChai = require('sinon-chai');
 var expect = chai.expect;
 var mocha = require('mocha');
 
 var toStringArray = require('../4')
-chai.use(sinonChai);
 
 describe ('Returns array in string form', function() {
   it('Should return [1,2,3,4,5] as an array of strings', function(){
@@ -21,9 +18,9 @@ describe ('Returns array in string form', function() {
       key: 30,
       thing: 'thing'
     }
-    var solution = [x.toString(),x.toString(),x.toString()];
+    var solution = [x.toString(),'3333','55.2','true'];
 
-    var result = toStringArray([x,x,x]);
+    var result = toStringArray([x,3333,55.2,true]);
     expect(result).to.deep.equal(solution);
   })
 })

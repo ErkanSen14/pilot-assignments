@@ -1,11 +1,8 @@
 var chai = require('chai');
-var sinon = require('sinon');
-var sinonChai = require('sinon-chai');
 var expect = chai.expect;
 var mocha = require('mocha');
 
 var prime = require('../2')
-chai.use(sinonChai);
 
 describe ('Returns whether a number is prime (loops)', function() {
   it('0 should return false', function(){

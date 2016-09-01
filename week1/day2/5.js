@@ -1,6 +1,4 @@
-module.exports = function flatten(){
-
-var arrays = [[1,2],[3,4,5],[6,7]];
+module.exports = function flatten(arrays){
 
 var thing = arrays.reduce(function(prev,current,index,array){
 	var result = [];
