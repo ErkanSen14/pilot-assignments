@@ -35,8 +35,8 @@ describe ('Returns whether a number is prime (recursion)', function() {
     var result = prime(5,2);
     expect(result).to.equal(solution);
   })
-  it('2 should return false', function(){
-    var solution = false;
+  it('2 should return true', function(){
+    var solution = true;
 
     var result = prime(2,2);
     expect(result).to.equal(solution);
