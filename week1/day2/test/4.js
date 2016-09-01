@@ -12,7 +12,7 @@ describe ('Returns array in string form', function() {
     expect(result).to.deep.equal(solution);
   })
 
-  it('Should return array of objects as an array of strings', function(){
+  it('Should return array of mixed types as array of strings', function(){
     var x = {
       value: 5,
       key: 30,
